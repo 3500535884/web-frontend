@@ -1,2 +1,2 @@
 # web-frontend
-a collection od web frontend
+a collection of web frontend
