@@ -7,7 +7,9 @@ import {
 }from 'react-router-dom';
 import './index.css';
 import App from './App';  // 导入App组件
-import SignIn from './SignIn'; // 导入About组件
+import SignIn from './SignIn';
+import SideSignIn from './SideSignIn'
+ // 导入About组件
  // 导入Inbox组件
 
  
@@ -20,6 +22,7 @@ export default class Hello extends Component{
                     
                     <Route exact path="/" component={App} />
                     <Route path="/SignIn" component={SignIn} />
+                    <Route path="/SideSignIn" component={SideSignIn}/>
                     
                 </div>
             </Router>
